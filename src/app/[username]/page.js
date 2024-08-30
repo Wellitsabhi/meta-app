@@ -6,7 +6,7 @@ export default function UserProfile({ params }) {
   
     return (
       <div>
-        <h1>{username}'s Profile</h1>
+        <h1>{username} &apos;s Profile</h1>
         <h2>Skills:</h2>
         <ul>
           {skills.map(skill => <li key={skill}>{skill}</li>)}
