@@ -21,7 +21,8 @@ export async function generateMetadata({ params }) {
     const { username } = params;
   
     // Example logic to generate a dynamic og:image URL based on user data
-    const ogImageUrl = `https://jsonplaceholder.typicode.com/photos/${username}/thumbnailUrl`;
+    // const ogImageUrl = `https://jsonplaceholder.typicode.com/photos/${username}/thumbnailUrl`;
+    const ogImageUrl = `https://via.placeholder.com/150/92c952`;
   
     return {
       title: `${username}'s Profile`,
